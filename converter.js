@@ -1,7 +1,8 @@
 var Converter = {}
 
 Converter.celsiusToFahrenheit = function(cDegree) {
-  return 0;
+  return Math.round((cDegree * 9 / 5) + 32);
+
 }
 
 Converter.fahrenheitToCelsius = function(fDegree) {
